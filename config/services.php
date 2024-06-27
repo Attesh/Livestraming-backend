@@ -38,11 +38,11 @@ return [
             'redirect' => env('GOOGLE_REDIRECT_URI'),
         ],
 
-    'facebook' => [
-        'client_id' => '3557689644490408',
-        'client_secret' => 'b9864a454ab6eb90a3facefd39716066',
-        // 'redirect' => 'http://localhost:8080/auth/facebook/callback',
-        'redirect' => 'https://costacaster.instantsolutionslab.site/auth/facebook/callback',
-    ],
+'facebook' => [
+    'client_id' => env('FACEBOOK_CLIENT_ID'),
+    'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+    'redirect' => env('FACEBOOK_REDIRECT_URI'),
+],
+
 
 ];
