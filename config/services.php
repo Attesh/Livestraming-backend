@@ -30,8 +30,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        'client_id' => '355385253604-k7fo4pd2vco70bldlnhh10qet3obd43j.apps.googleusercontent.com',
-        'client_secret' => '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',
+        // 'client_id' => '355385253604-k7fo4pd2vco70bldlnhh10qet3obd43j.apps.googleusercontent.com',
+        // 'client_secret' => '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',
         // 'redirect' => 'http://localhost:8080/auth/google/callback',
         'redirect' => 'https://costacaster.instantsolutionslab.site/auth/google/callback',
     ],
